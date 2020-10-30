@@ -1,0 +1,71 @@
+/* start css footer */
+footer{
+    margin-top: 100px;
+}
+.footer_contact_pay{
+    margin: auto;
+}
+.element_footer{
+    background-color: #0d0d0d;
+    color: #666;
+    padding: 80px 0px 92px 0px;
+}
+.list_element_inner{
+    padding-left: 0px;
+}
+.list_element_inner li{
+    list-style: none;
+}
+.list_element_inner li a{
+    text-decoration: none;
+    color: #a8a8a8;
+    line-height: 35px;
+    font-size: 17px;
+    padding: 0 0 12px 0;
+}
+.element_inner h4{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3rem;
+    padding-bottom: 20px;
+}
+.footer_contact{
+    background-color: transparent;
+    padding: 38px 0px 38px 0px;
+}
+.list_element_inner i{
+    padding-right: 5px;
+}
+.icon_contact a{
+    background-color: #516ae8;
+    color: #fff;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+.footer_contact span{
+    margin-right: 5px ;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer_pay {
+    background-color: transparent;
+    padding: 38px 0px 38px 0px;
+}
+.backround_footer{
+    position: relative;
+    top: -124px;
+    z-index: -1;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0px;
+}
+.copyRight{
+    background-color: #ffffff;
+    margin-top: -124px;
+    padding: 38px 0px 38px 0px;
+}

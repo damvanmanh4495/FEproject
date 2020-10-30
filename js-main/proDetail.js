@@ -1,0 +1,19 @@
+$(document).ready(function(){
+  $(".jws-cart-overlay").click(function(){
+    $(".current_shopping_cart").hide(400);
+    $(".jws-cart-overlay").fadeOut(400);
+  });
+  $(".header_topIcon_bag").click(function(){
+    $(".current_shopping_cart").show(400);
+    $(".jws-cart-overlay").fadeIn(400);
+  });
+  $(".jws-cart-overlay").click(function(){
+    $(".menuLeft_header").hide(400);
+    $(".jws-cart-overlay").fadeOut(400);
+  });
+  $(".iconNav_header").click(function(){
+    $(".menuLeft_header").show(400);
+    $(".jws-cart-overlay").fadeIn(400);
+  });
+});
+

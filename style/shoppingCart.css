@@ -1,0 +1,209 @@
+@media (min-width: 1200px){
+    #shopping_cart .container{
+        max-width: 1328px;
+    }
+}
+/* #shopping_cart{
+    margin-top: 100px;
+} */
+
+.catName_shoppingCart{
+    color: #999999;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #f4f4f4;
+}
+.catName_shoppingCart h1{
+    color: #0c0c0c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.catName_shoppingCart i{
+    font-size: 7px;
+    color: #dddddd;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.main_shoppingCart{
+    padding-top: 100px;
+}
+.shopping_table{
+    width: 100%;
+    box-sizing: border-box;
+}
+.head_table_shoppingCart{
+    background-color: #0c0c0c;
+    color: #ffffff;
+    border: 4px solid #0c0c0c;
+    border-bottom: none;
+}
+.head_table_shoppingCart th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.head_table_shoppingCart th:nth-child(1){
+    text-align: left;
+    padding-left: 50px;
+}
+.body_table_shoppingCart tr{
+    text-align: center;
+    border-left: 4px solid #f2f2f2;
+    border-right: 4px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    padding:30px;
+}
+.body_table_shoppingCart input{
+    width: 60%;
+    border-radius: 40px;
+    border:1px solid #d4d4d4;
+    padding: 10px 0px 10px 20px; 
+}
+input[type=number]:focus,input[type=text]:focus {
+    outline: none;
+  }
+.body_table_shoppingCart td{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.quantity_table_cart {
+    width: 20%;
+}
+.price_table_cart{
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+.icon_table_cart i{
+    font-size: 30px;
+}
+.img_table_cart img{
+    max-width: 65px;
+    height: auto;
+}
+.nameProduct_cart a{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+.nameProduct_cart a:hover{
+ text-decoration: none;
+}
+.body_cart_totals tr td:nth-child(1){
+    font-weight: bold;
+    text-align: top;
+}
+.body_cart_totals tr:nth-child(1){
+    line-height: 80px;
+}
+.body_cart_totals tr td:nth-child(2){
+    text-align: right;
+}
+.totalPrice_shoppingCart{
+    color: #c0a576;
+}
+.btn_updateCart td{
+    text-align: left;
+    padding-left: 50px;
+}
+.btn_updateCart a{
+    border: 2px solid #333333;
+    border-radius: 40px;
+    color: #333333;
+    padding: 10px 25px 12px 25px; 
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn_updateCart button{
+    background-color: #0c0c0c;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 25px 12px 25px;
+    text-transform: uppercase;
+}
+
+.cart_totals{
+    background-color: #c0a576;
+    color: #ffffff;
+    padding: 10px 20px 20px 20px;
+}
+.cart_totals h2{
+    font-size: 25px;
+}
+
+.order-total td:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.checkout_shoppingCart button{
+    width: 100%;
+    border: none;
+    border-radius: 40px;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.order-total{
+    border-top: 1px solid white;
+}
+.coupon_shoppingCart h3{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.coupon_shoppingCart button{
+    margin-top: 15px;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    padding: 12px 0 12px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+.coupon_shoppingCart input, .coupon_shoppingCart button{
+    width: 100%;
+}
+.coupon_shoppingCart input{
+    padding: 10px 0 10px 10px;
+    border:1px solid #d4d4d4;
+}
+.jws-cart-panel-summary{
+    width: 100%;
+    border-top: 1px solid #000;
+    border-top-style: dotted;
+    position: absolute;
+    bottom: 0;
+    margin-left: -30px;
+}
+.jws-cart-panel-summary-inner{
+    padding: 40px 70px 40px 70px ;
+
+    width: 100%;
+}
+.jws-cart-panel-summary-inner a{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #0c0c0c;
+    text-align: center;
+    border-radius: 40px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #000;
+}
+.jws-cart-panel-summary-inner a:hover{
+    text-decoration: none;
+    background-color: #0c0c0c;
+    color: #fff;
+}
+.jws-cart-panel-summary-inner span{
+    font-size: 18px;
+}

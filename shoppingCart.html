@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="shoppingCart.css">
+</head>
+<body>
+    <main id="shopping_cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="table_main_cart">
+                        <table class="shopping_table">
+                            <thead class="head_table_shoppingCart">
+                                <tr>
+                                    <th colspan="3">Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody class="body_table_shoppingCart">
+                                <tr>
+                                    <td class="icon_table_cart"><i class="fa fa-times" aria-hidden="true"></i></td>
+                                    <td class="img_table_cart"><img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/10/isolated-21995421-e1571448220675-400x500.jpg" alt=""></td>
+                                    <td class="nameProduct_cart"><a href="#">Agri basket</a>
+                                    </td>
+                                    <td class="price_table_cart">$79.00</td>
+                                    <td class="quantity_table_cart"><input type="number"></td>
+                                    <td class="price_table_cart">$79.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="icon_table_cart"><i class="fa fa-times" aria-hidden="true"></i></td>
+                                    <td class="img_table_cart"><img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/10/isolated-21995421-e1571448220675-400x500.jpg" alt=""></td>
+                                    <td class="nameProduct_cart"><a href="#">Agri basket</a>
+                                    </td>
+                                    <td class="price_table_cart">$79.00</td>
+                                    <td class="quantity_table_cart"><input type="number"></td>
+                                    <td class="price_table_cart">$79.00</td>
+                                </tr>
+                                <tr class="btn_updateCart">
+                                    <td colspan="6">
+                                        <a href="">Continue shopping</a>
+                                        <button >
+                                            Update Cart
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cart_totals">
+                        <h2>Cart totals</h2>
+                        <table>
+                            <tbody class="body_cart_totals">
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td>$187.00</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">Shipping</td>
+                                    <td><p>Flat rate: $25.00</p>
+                                        <p>Shipping options will be updated during checkout.				
+                                        </p>
+                                        <p>
+                                            Calculate shipping
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr class="order-total">
+                                    <td>Total</td>
+                                    <td>$212.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="checkout_shoppingCart">
+                            <button >                                
+                                Proceed to checkout
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coupon_shoppingCart">
+                        <h3>Coupon:</h3>
+                        <hr>
+                        <input type="text" placeholder="Coupon code"><br>
+                        <button >
+                            Apply coupon
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>

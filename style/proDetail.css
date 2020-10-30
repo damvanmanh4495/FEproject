@@ -1,0 +1,31 @@
+:root{
+    --text-color1:#999;
+    --text-color2:#ddd;
+    --text-color3:#fff;
+    --black-color:#0d0d0d;
+    --yellow-color:#c0a576;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.thumbnail_img_productDetail{
+    width: 25%;
+}
+.thumbnail_img_productDetail img{
+    height: 100%;
+    width: 100%;
+}
+.big_img_productDetail {
+    text-align: center;
+}
+
+.big_img_productDetail img {
+    width: 100%;
+    height: 100%;
+}
+
+.big_img_productDetail {
+    height: 550px;
+    width: 100%;
+}

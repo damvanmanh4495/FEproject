@@ -1,0 +1,87 @@
+
+.btn_change_layout a{
+    display: block;
+    padding:14px;
+    color: #575560;
+    background-color: #f1f1f1;
+    margin-left: 3px;
+}
+.btn_change_layout i{
+    font-size: 18px ;
+}
+.classChange_layoutList{
+    background-color: #c0a576 !important;
+    color: #fff !important;
+}
+
+.img_product_ListPro{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img_product_ListPro img{
+    width: 100%;
+
+}
+.imgLayer2_listPro{
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+}
+.info_product_ListPro a{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(151, 144, 144);
+}
+.info_product_ListPro h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.info_product_ListPro p{
+    color: #c0a576;
+    font-weight: 1000;
+}
+.btn_productShow button{
+    background-color: #c0a576;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+}
+.btn_productShow i{
+    background-color: #fff;
+    border: 1px solid #c0a576;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 11px;
+    color: #c0a576;
+    transition: 0.4s;
+}
+.btn_productShow{
+    width: 100%;
+    position: absolute;
+    bottom:-70px;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top: 30px;
+}
+.btn_productShow i:hover{
+    background-color: #c0a576;
+    color: #fff;
+}
+
+.productShow_listPro:hover .imgLayer2_listPro{
+    opacity: 1;
+}
+.productShow_listPro:hover .btn_productShow{
+    bottom:-40px;
+    opacity: 1;
+}
