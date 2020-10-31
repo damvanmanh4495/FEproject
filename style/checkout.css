@@ -148,3 +148,7 @@
 .btn_place_order:hover{
     background-color: #252525;
 }
+textarea:focus, button:focus{
+    border: none;
+    outline: none;
+}
