@@ -1,0 +1,150 @@
+.elementor_checkout{
+    margin-top: 50px;
+    line-height: 35px;
+}
+.slideShow_login_checkout{
+    display: none;
+}
+.returning_customer form{
+    width: 100%;
+}
+.returning_customer a{
+    color: #c0a576;
+}
+.returning_customer a:hover{
+    text-decoration: none;
+}
+.form_login_checkout{
+    border: 5px solid #ececec;
+    padding: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form_login_checkout_inner input{
+    width: 49%;
+    border: 1px solid #ececec;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin: 0px 10px 30px 10px;
+}
+#remember_account{
+    width: 20px;
+    margin-bottom: 40px;
+}
+.login_checkout{
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+}
+
+.haveAcoupon_checkout input{
+    width: 80%;
+}
+.btn_applyCoupon{
+    width: 20%;
+    height: 50px;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+}
+.formCoupon_checkout{
+    display: none;
+}
+
+/* css billing_fields_checkout */
+.billing_fields_checkout{
+    border-top: 2px solid #ececec;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.form_infoUser_checkout{
+    margin-top: 30px;
+}
+.form_row_first input{
+    width: 100%;
+    border: 1px solid #ececec;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 25px;
+    border-radius: 40px;
+}
+#cb_shipToAddress{
+    width: 30px;
+    margin-top: 50px;
+}
+.billing_fields_checkout label{
+    font-size: 25px;
+    font-weight: 500;
+}
+#noteShip_checkout{
+    border-radius: 40px;
+    width: 100%;
+    border: 1px solid #ececec;
+    padding: 10px 25px;
+}
+.form_differentAddress{
+    display: none;
+}
+
+#order_review{
+    padding: 6%;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 35px;
+}
+.shop_table_checkout{
+    width: 100%;
+}
+.shop_table_checkout tr th:nth-child(2){
+    text-align: right;
+}
+.shop_table_checkout tr td:nth-child(2){
+    text-align: right;
+    font-weight: 600;
+}
+.btn1_driectBank input{
+    width: 30px;
+}
+.typePay_row1 label{
+    font-size: 14px;
+    color: #666666;
+}
+#agreeRules_checkout{
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.agreeRules_checkout_element label{
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+.woocommerce-privacy-policy-text{
+    padding: 10px;
+}
+.woocommerce-privacy-policy-text a{
+    color: #c0a576;
+}
+.woocommerce-privacy-policy-text p{
+    font-size: 0.8rem;
+    line-height: 25px;
+    color: #666666;
+}
+.btn_place_order{
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    background-color: #0c0c0c;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 0; 
+    font-weight: 600;
+    transition: 0.4s;
+}
+.btn_place_order:hover{
+    background-color: #252525;
+}
