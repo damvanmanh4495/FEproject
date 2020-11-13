@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style/fashion.css">
+	<link rel="stylesheet" href="style/header.css">
+	<link rel="stylesheet" href="style/footer.css">
+	<link rel="stylesheet" href="style/checkout.css">
+	<link rel="stylesheet" href="style/shoppingCart.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id="wrap" style="overflow:hidden;" onscroll="functionScroll">
+		<header>
+			<div class="header_top">
+				<div class="container">
+					<div class="row no-gutters">
+						<div class="col-lg-6 text-left">
+							<div class="header_top_listLeft d-flex flex-row justify-content-start">
+								<ul>
+									<li><a href="">Store Location</a></li>
+									<li><a href="">Track Your Order</a></li>
+									<li>
+										<a href="#" class="currency_header_top"><span>US Dollar <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+										<div class="list-group list_currency">
+											<a href="#" class="list-group-item list-group-item-action">United States (USD)</a>
+											<a href="#" class="list-group-item list-group-item-action">Deutschland (EUR)</a>
+											<a href="#" class="list-group-item list-group-item-action">Japan (JPY)</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6 ">
+							<div class="header_top_listRight d-flex flex-row justify-content-end">
+								<ul>
+									<li>
+										<div class="header_topIcon">
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+									</li>
+									<li>
+										<div class="header_topIcon">
+											<span>$</span><img src="img/englandIcon.png" alt="">
+											<div class="list-group list_drop_nation">
+												<a href="#" class="list-group-item list-group-item-action">Japan</a>
+												<a href="#" class="list-group-item list-group-item-action">Colombia</a>
+												<a href="#" class="list-group-item list-group-item-action">France</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="header_topIcon header_topIcon_bag d-flex flex-row">
+											<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+											<div class="header_numberProduct">
+												2
+											</div>
+											
+										</div>
+									</li>
+								</ul>
+							</div>   
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="jws-cart-overlay" style="z-index: 98;">
+	
+				</div>
+	
+				<div class="current_shopping_cart">
+					<h3>2 ITEM</h2>
+					<ul >
+						<li class="d-flex flex-row">
+							<a href="#">
+								<i class="fa fa-times" aria-hidden="true"></i>
+							</a>
+							
+							<div class="jws_cart_item_inner d-flex flex-row">
+								<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/10/isolated-21995421-e1571448220675-400x500.jpg" alt="">
+								<div class="info_currentCart">
+									<h4>Agri basket</h4>
+									<p class="price_info_currentCart">2 x $79.00</p>
+									<p class="">
+										<i class="fa fa-minus" aria-hidden="true"></i>
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</p>
+								</div>
+							</div>
+							
+						</li>
+					</ul>
+					<div class="jws-cart-panel-summary ">
+						<div class="jws-cart-panel-summary-inner ">
+							<p>
+								<span>Subtotal:</span>
+								<strong><span >$237.00</span></strong>
+							</p>
+							<a href="#">View cart</a>
+							<a href="#">proceed to checkout</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="menuLeft_header text-left">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Shop</a></li>
+						<li><a href="">Page</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+					<div class="jws_menu_canvas_social">
+						<span>
+							<i class="fa fa-facebook" aria-hidden="true" style="background-color: #516ae8;"></i>
+						</span>
+						<span>
+							<i class="fa fa-twitter" aria-hidden="true" style="background-color: #4fbbff;"></i>
+						</span>
+						<span>
+							<i class="fa fa-google-plus" aria-hidden="true" style="background-color: #df2929;"></i>
+						</span>
+					</div>
+	
+				</div>
+	
+			</div>
+			<div class="background-header">
+				<div id="sticky_main_header">
+					<div class="main_header">
+						<div class="container ">
+							<div class="row no-gutters">
+								<div class="col-lg-3 logo_main_header">
+									<a href="#">
+										<img src="img/diamond-engagement-rings.png" alt="">
+									</a>
+								</div>
+								<div class="col-lg-5 search_main_header">
+									<div class="category_header d-flex flex-row">
+										<span>ALL<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+										<input type="text" placeholder="I'm shopping for...">
+										<button class="searchSubmit"><i class="fa fa-search" aria-hidden="true"></i></button>
+									</div>
+								</div>
+								<div class="col-lg-3 ">
+									<div class="phone_header d-flex flex-row justify-content-end">
+										<div class="iconPhone_header">
+											<img src="img/headphone.png" alt="">
+										</div>
+										<div class="infoPhone_header">
+											<h4>FREE SUPPORT:</h4>
+											<h3>(012) 800 456 789</h3>
+										</div>
+									</div> 
+								</div>
+								<div class="col-lg-1 iconNav_header text-right" >
+									<img src="img/humberger.png" alt="">
+		
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</header>
+			
+
+
+
+		<!-- end header -->
+		
+		<div class="content">
+			<div class="row no-gutters" style="width:100%; height: 75px; background-color: #c0a576;"></div>
+
+			<div class="container">
+				<div class="sale_banner">
+					<div class="row no-gutters">
+						<div class="col-sm-12 no-gutters">
+							<div class="title_sale_banner">
+								<div class="text_big_header">
+									<span class="rateSale_header">30%OFF</span>
+									<span class="everyThing">Everything?</span>
+								</div>
+								<div class="date_sale_banner">
+									<h3 >
+										Hurry! Ends in - 5 May 2019
+									</h3>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="service">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-xs-12 col1_service">
+							<div class="shipping_service">
+								<img src="img/Forma 11.png" alt="">
+								<span>Free Returns With Pick-Up Service</span>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xs-12 col1_service">
+							<div class="shipping_service">
+								<img src="img/Fast Shipping.png" alt="">
+								<span>Fast Shipping</span>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xs-12 col1_service border_none_header">
+							<div class="shipping_service">
+								<img src="img/Forma 1.png" alt="">
+								<span>International Click & Collect</span>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+			<div class="slide">
+				<div class="container-fluid slide_page1">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators serial_slide" >
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1">2</li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2">3</li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="img/Slide2.jpg" alt="First slide"
+									style="width:100%;height: 780px">
+								<div class="carousel-caption d-none d-md-block textInSlide">
+									<div class="slide_info" >
+										<h3 style="text-decoration: underline; color:#333333 ">New Arrival Fashion Dresses
+										</h3>
+										<h1>Trends Fashion</h1>
+										<h2>Clothes 2019</h2>
+										<p>Limited Time Season Collection</p>
+										<button class="btn-start-shopping">START SHOPPING</button>
+										<div class="text_rotate">
+											<span>Big Sale - 50 Discount</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/slide3.jpg" alt="Second slide"
+									style="width:100%;height: 780px">
+								<div class="carousel-caption d-none d-md-block textInSlide">
+									<div class="slide_info">
+										<h3 style="text-decoration: underline; color:#333333 ">New Arrival Fashion Dresses
+										</h3>
+										<h1>Trends Fashion</h1>
+										<h2>Clothes 2019</h2>
+										<p>Limited Time Season Collection</p>
+										<button class="btn-start-shopping">START SHOPPING</button>
+										<div class="text_rotate">
+											<span>Big Sale - 50 Discount</span>
+										</div>
+									</div>
+	
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/Slide1.png" alt="Third slide"
+									style="width:100%;height: 780px">
+								<div class="carousel-caption d-none d-md-block textInSlide">
+									<div class="slide_info">
+										<h3 style="text-decoration: underline; color:#333333 ">New Arrival Fashion Dresses
+										</h3>
+										<h1>Trends Fashion</h1>
+										<h2>Clothes 2019</h2>
+										<p>Limited Time Season Collection</p>
+										<button class="btn-start-shopping">START SHOPPING</button>
+										<div class="text_rotate">
+											<span>Big Sale - 50 Discount</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" style="display: none" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" style="display: none" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="container ">
+				<div class="row product_type_content">
+					<div class="col-sm-4 product_type">
+						<div class="product_type_img">
+							<img src="img/womenFashion.jpg" alt="">
+						</div>
+						<h5>Women Fashion</h5>
+					</div>
+					<div class="col-sm-4 product_type">
+						<div class="product_type_img">
+							<img src="img/menFashion.jpg" alt="">
+						</div>
+						<h5>Men Fashion</h5>
+					</div>
+					<div class="col-sm-4 product_type">
+						<div class="product_type_img">
+							<img src="img/kidFashion.jpg" alt="">
+						</div>
+						<h5>Kids Fashion</h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="container title_featured_product">
+				<h2>FEATURED PRODUCTS</h2>
+				<p>Little stories that create our universe</p>
+			</div>
+
+			
+			<div class="list_discover_products" >
+				
+					<div class="row">
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end 1 product discover -->
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end 1 product discover -->
+
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end 1 product discover -->
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end 1 product discover -->
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end 1 product discover -->
+						<div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!-- end 1 product discover -->
+						
+						
+						
+						
+						<div class="col-lg-12">
+							<div class="container more_products ">
+								<button type="button" class="btn btn-lg btn-primary more_products">MORE PRODUCTS</button>
+							</div>
+						</div>
+						
+					</div>
+				
+			</div>
+						
+
+					
+			
+		
+			<div class="discount" >
+				<div class="container" >
+					<div class="row">
+						<div class="col-sm-6 col1_discount left_discount ">
+							<div class="img_col1_discount ">
+								<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/07/banner1.jpg" alt=""
+									class="effect_shadow">
+							</div>
+							<div class="info_col1_discount">
+								<h3>30% <span>OFF</span></h3>
+								<h2>
+									Rise to the
+								</h2>
+								<h2 class="occasion">
+									Occasion
+								</h2>
+								<button class="btn btn-lg btn-primary btn_discount">SHOP OCCASION WEAR</button>
+							</div>
+						</div>
+						<div class="col-sm-6 col1_discount right_discount">
+							<div class="img_col1_discount ">
+								<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/07/banner2.jpg" alt=""
+									class="effect_shadow">
+							</div>
+							<div class="info_col1_discount right_col1_discount">
+								<h3>30% <span>OFF</span></h3>
+								<h2>
+									Summer
+								</h2>
+								<h2 class="occasion">
+									Starts Here
+								</h2>
+								<button class="btn btn-lg btn-primary btn_discount">SHOP SUMMER CLOTHES</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END DISCOUNT -->
+			<div class="container title_discover_products">
+				<h2>Discover Products</h2>
+				<p>Little stories that create our universe</p>
+			</div>
+			<div>
+				<div class="container separate">
+					<img src="img/Seprator.png" alt="">
+				</div>
+			</div>
+
+			<div class="menu_discover">
+				<div class="container">
+					<ul class="main_menu_discover">
+						<li><a href="">MAN</a></li>
+						<li><a href="">WOMAN</a></li>
+						<li><a href="">KIDS</a></li>
+						<li><a href="">ACCESSORIES</a></li>
+						<li><a href="">ESSENTIAL PRICES</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="list_discover_products">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col1_list_discover_products">
+							<div class="col1_list_discover_products">
+								<div class="discover_product_img">
+									<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/06/52424751_001_b-400x500.jpg"
+										alt="">
+									<div class=" featured_product_img_layer2">
+										<div class="icon_layer2">
+											<a href="#"><i class="fa fa-search icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-shopping-bag icon_layer2" style="font-size: 20px"></i></a>
+											<a href="#"><i class="fa fa-refresh icon_layer2" style="font-size: 20px"></i></a>
+										</div>
+										
+	
+									</div>
+								</div>
+								<div class="featured_product_info">
+									<div class="row featured_product_info">
+										<div class="col-sm-8">
+											<h6>Game - Shoes</h6>
+											<h5>Hand Bags</h5>
+											<h4>$32.00 <span>$9.99</span></h4>
+										</div>
+										<div class="col-sm-4 choose_color_product">
+											<span class="color_product ">
+											</span>
+											<span class="color_product color2">
+											</span>
+											<span class="color_product color3">
+											</span>
+											<span class="color_product color4">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="container more_products ">
+							<button type="button" class="btn btn-lg btn-primary more_products">MORE PRODUCTS</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="banner_gift">
+				<div class="container ">
+					<div class="block_gift_info">
+						<h4>
+							IN STORE & ONLINE - UNTIL 05/05!
+						</h4>
+						<img src="img/Seprator2.png" alt="">
+						<h1>
+							<span>MOTHER'S </span> DAY GIFT LIST
+						</h1>
+						<h2>30% <span>OFF</span></h2>
+						<button class="start_shopping">
+							START SHOPPING
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- end banner gift -->
+
+			<div class="container title_discover_products">
+				<h2>RECENT ARTICLES</h2>
+				<p>Little stories that create our universe</p>
+			</div>
+
+			<div class="recent_block">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 ">
+							<div class="recent_img">
+								<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/07/blog1-740x460.jpg"
+									alt="" style="width: 100%">
+							</div>
+							<div class="recent_info">
+								<div class="left_recent_info">
+									<div class="left_recent_info_avatar"><img src="img/Emma_Deponline.jpg" alt=""></div>
+									<span>By:</span>
+									<span class="admin_info">Admin</span>
+								</div>
+								<div class="right_recent_info">
+									<h4>21 Jul 2019 / Comments : 2</h4>
+									<h5>How To Organize Your
+										Workplace?</h5>
+									<h6>Alienum phaedrum torquatu
+										pericus nihil expet in mei. Mei
+										ula with touch markers.</h6>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-sm-4 ">
+							<div class="recent_img">
+								<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/07/blog_im1-740x460.jpg"
+									alt="" style="width: 100%">
+							</div>
+							<div class="recent_info">
+								<div class="left_recent_info">
+									<div class="left_recent_info_avatar"><img src="img/Emma_Deponline.jpg" alt=""></div>
+									<span>By:</span>
+									<span class="admin_info">Admin</span>
+								</div>
+								<div class="right_recent_info">
+									<h4>21 Jul 2019 / Comments : 2</h4>
+									<h5>How To Organize Your
+										Workplace?</h5>
+									<h6>Alienum phaedrum torquatu
+										pericus nihil expet in mei. Mei
+										ula with touch markers.</h6>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-sm-4 ">
+							<div class="recent_img">
+								<img src="http://fatcy.jwsuperthemes.com/wp-content/uploads/2019/07/blog_im3-740x460.jpg"
+									alt="" style="width: 100%">
+							</div>
+							<div class="recent_info">
+								<div class="left_recent_info">
+									<div class="left_recent_info_avatar"><img src="img/Emma_Deponline.jpg" alt=""></div>
+									<span>By:</span>
+									<span class="admin_info">Admin</span>
+								</div>
+								<div class="right_recent_info">
+									<h4>21 Jul 2019 / Comments : 2</h4>
+									<h5>How To Organize Your
+										Workplace?</h5>
+									<h6>Alienum phaedrum torquatu
+										pericus nihil expet in mei. Mei
+										ula with touch markers.</h6>
+								</div>
+							</div>
+
+						</div>
+						<div class="container more_products ">
+							<button type="button" class="btn btn-lg btn-primary more_products">MORE ARTICLES</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="element_what_new">
+				<div class="block_help">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-4 col1_block_help">
+								<div class="text_block_help">
+									<img src="img/icon_help.png" alt="">
+									<span>
+										How to Shop
+									</span>
+								</div>
+							</div>
+							<div class="col-sm-4 col1_block_help col2_block_need">
+								<div class="text_block_help">
+									<img src="img/icon_advance.png" alt="">
+									<span>
+										Advance Faq's
+									</span>
+								</div>
+							</div>
+							<div class="col-sm-4 col1_block_help 
+									col2_block_need col3_block_need">
+								<div class="text_block_help">
+									<img src="img/icon_need.png" alt="">
+									<span>
+										Need Help?
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="what_new">
+					<div class="container what_new_detail">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<h1>WHAT'S NEW</h1>
+								<h3>Sign up for exclusive early sale access and tailored new arrivals.</h3>
+							
+								<div class="jws_skin_1">
+									<div class="form_choise_sex_home d-flex fle-row justify-content-center">
+										 <label for="Womenswear"><input type="radio" name="sex" id="Womenswear">Womenswear</label>
+										 <label for="Menswear"><input type="radio" name="sex" id="Menswear">Menswear</label>
+									</div>
+									<div class="form_bottom text-center d-flex fle-row justify-content-center">
+										<input type="text" placeholder="Yes, Here's My Email">
+										<button class="submit_InHomePage">Sign me up</button>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- end content -->
+		
+		<footer>
+			<div class="element_footer">
+				<div class="element_inner">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3">
+								<h4>HELP</h4>
+								<ul class="list_element_inner">
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Store Finder</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>FAQs</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Size Guide</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Washcare & Aftercare</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<h4>DELIVERY & RETURNS</h4>
+								<ul class="list_element_inner">
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Track your order</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Delivery</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Returns</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>E-Receipts</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<h4>CARDS & OFFERS</h4>
+								<ul class="list_element_inner">
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Student Discount</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Git Cards</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Mothers Day Gift</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<h4>ABOUT US</h4>
+								<ul class="list_element_inner">
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Fashion Footprint</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Careers & Opportunities</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>T&Cs</a></li>
+									<li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Modern Slavery Act</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer_contact_pay">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="footer_contact">
+								<div class="icon_contact">
+									<span>FOLLOW US:</span>
+									<a href="" class="fa fa-facebook" style="background-color: #516ae8;"></a>
+									<a href="" class="fa fa-twitter"style="background-color: #4fbbff;"></a>
+									<a href="" class="fa fa-google-plus" style="background-color: #df2929;"></a>
+									<a href="" class="fa fa-linkedin" style="background-color:#3c4e99;"></a>
+									<a href="" class="fa fa-stumbleupon" style="background-color:#e32a2a;"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="footer_pay text-right">
+								<a href=""><img src="img/pay.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row backround_footer" style="width:100%; height: 128px;">
+					<div class="col-lg-6" style="background-color: #191919;">
+	
+					</div>
+					<div class="col-lg-6" style="background-color: #bba174;">
+	
+					</div>
+				</div>
+				<div class="copyRight">
+					<div class="container text-center">
+						<div class="text_copyRight">
+							<span style="color: #c0a576;">Fatcy</span>
+							<span> - Copyright 2020. Desgin by </span>
+							<span style="color:#c0a576 ;">JWSTHEMES</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="btn_scrollTop">
+				<i class="fa fa-arrow-up" aria-hidden="true"></i>
+			</div>
+		</footer>
+		
+	</div>
+
+
+</body>
+	<script src="js-main/fashion.js"></script>
+	<script src="modal.js"></script>
+	<script src="js-main/proDetail.js"></script>
+	<script>
+		window.onscroll = function() {myFunction()};
+	  
+	  var header = document.getElementById("sticky_main_header");
+	  var sticky = header.offsetTop;
+	  
+	  function myFunction() {
+		if (window.pageYOffset > sticky) {
+		  header.classList.add("sticky");
+		} else {
+		  header.classList.remove("sticky");
+		}
+	  }
+	  </script>
+</html>

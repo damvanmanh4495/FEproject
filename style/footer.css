@@ -1,7 +1,5 @@
 /* start css footer */
-footer{
-    margin-top: 100px;
-}
+
 .footer_contact_pay{
     margin: auto;
 }
@@ -69,3 +67,26 @@ footer{
     margin-top: -124px;
     padding: 38px 0px 38px 0px;
 }
+
+/* css btn_scrollTop */
+.btn_scrollTop  {
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px!important;
+    color: #000;
+    text-align: center;
+    z-index: 99;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    background-color: #fff;
+    display: none;
+}
+/* .btn_scrollTop_action{
+    bottom:20px;
+    opacity: 1;
+} */
